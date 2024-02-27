@@ -12,9 +12,11 @@ struct HomePageView: View {
     var body: some View {
         VStack{
             Spacer()
+            Spacer()
+            Spacer()
             HStack{
                 VStack(alignment: .leading, spacing:-3){
-                    Text("Bonjour,").font(.custom("LT Panneaux Extra Bold",size: 32))
+                    Text("lalalal,").font(.custom("LT Panneaux Extra Bold",size: 32))
                     HStack{
                         Text("Linguine").font(.custom("LT Panneaux Extra Bold",size: 32)).foregroundStyle(.linguineOrange)
                         Text("!").font(.custom("LT Panneaux Extra Bold",size: 32))
