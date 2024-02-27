@@ -11,7 +11,7 @@ import SwiftUI
 struct lePetitChef_challengeZeroApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

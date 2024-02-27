@@ -25,6 +25,7 @@
 		0CF691742B8E57E100DFB2C2 /* ReceitaDoisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */; };
 		0CF691762B8E580800DFB2C2 /* ReceitaTresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */; };
 		0CF691782B8E582200DFB2C2 /* ReceitaQuatroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */; };
+		AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA459152B8E604F0017D168 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaDoisView.swift; sourceTree = "<group>"; };
 		0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaTresView.swift; sourceTree = "<group>"; };
 		0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaQuatroView.swift; sourceTree = "<group>"; };
+		AAA459152B8E604F0017D168 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				0CF691612B8E549C00DFB2C2 /* Fontes */,
 				0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */,
 				0CF691352B8E532700DFB2C2 /* ContentView.swift */,
+				AAA459152B8E604F0017D168 /* SplashScreen.swift */,
 				0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */,
 				0CF691712B8E56FB00DFB2C2 /* ReceitaUmView.swift */,
 				0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */,
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */,
 				0CF691762B8E580800DFB2C2 /* ReceitaTresView.swift in Sources */,
 				0CF691722B8E56FB00DFB2C2 /* ReceitaUmView.swift in Sources */,
 				0CF691782B8E582200DFB2C2 /* ReceitaQuatroView.swift in Sources */,
