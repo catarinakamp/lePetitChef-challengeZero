@@ -11,9 +11,18 @@ struct HomePageView: View {
     @Binding var router: Router
     var body: some View {
         VStack{
+            Spacer()
             HStack{
-                Text("Bonjour,\nLinguine!\nExplore receitas").font(.custom("LT Panneaux Extra Bold",size: 40))
-                Image(systemName: "info")
+                VStack(alignment: .leading, spacing:-3){
+                    Text("Bonjour,").font(.custom("LT Panneaux Extra Bold",size: 32))
+                    HStack{
+                        Text("Linguine").font(.custom("LT Panneaux Extra Bold",size: 32)).foregroundStyle(.linguineOrange)
+                        Text("!").font(.custom("LT Panneaux Extra Bold",size: 32))
+                    }
+                    Text("Explore receitas").font(.custom("LT Panneaux Extra Bold",size: 32))
+                    
+                }
+                Image(systemName: "info.circle")
             }
             ScrollView{
                 Button(action: {router = .receitaUm}, label: {
