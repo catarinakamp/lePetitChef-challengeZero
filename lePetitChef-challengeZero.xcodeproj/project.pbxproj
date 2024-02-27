@@ -14,6 +14,17 @@
 		0CF691452B8E532800DFB2C2 /* lePetitChef_challengeZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691442B8E532800DFB2C2 /* lePetitChef_challengeZeroTests.swift */; };
 		0CF6914F2B8E532900DFB2C2 /* lePetitChef_challengeZeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6914E2B8E532900DFB2C2 /* lePetitChef_challengeZeroUITests.swift */; };
 		0CF691512B8E532900DFB2C2 /* lePetitChef_challengeZeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691502B8E532900DFB2C2 /* lePetitChef_challengeZeroUITestsLaunchTests.swift */; };
+		0CF6915E2B8E53FF00DFB2C2 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */; };
+		0CF691652B8E54CA00DFB2C2 /* Bubblegum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691642B8E54CA00DFB2C2 /* Bubblegum.ttf */; };
+		0CF6916B2B8E54E700DFB2C2 /* LTPanneaux-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691662B8E54E700DFB2C2 /* LTPanneaux-Regular.ttf */; };
+		0CF6916C2B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691672B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf */; };
+		0CF6916D2B8E54E700DFB2C2 /* LTPanneaux-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691682B8E54E700DFB2C2 /* LTPanneaux-SemiBold.ttf */; };
+		0CF6916E2B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691692B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf */; };
+		0CF6916F2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6916A2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf */; };
+		0CF691722B8E56FB00DFB2C2 /* ReceitaUmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691712B8E56FB00DFB2C2 /* ReceitaUmView.swift */; };
+		0CF691742B8E57E100DFB2C2 /* ReceitaDoisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */; };
+		0CF691762B8E580800DFB2C2 /* ReceitaTresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */; };
+		0CF691782B8E582200DFB2C2 /* ReceitaQuatroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		0CF6914A2B8E532900DFB2C2 /* lePetitChef-challengeZeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lePetitChef-challengeZeroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF6914E2B8E532900DFB2C2 /* lePetitChef_challengeZeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lePetitChef_challengeZeroUITests.swift; sourceTree = "<group>"; };
 		0CF691502B8E532900DFB2C2 /* lePetitChef_challengeZeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lePetitChef_challengeZeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		0CF691642B8E54CA00DFB2C2 /* Bubblegum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bubblegum.ttf; sourceTree = "<group>"; };
+		0CF691662B8E54E700DFB2C2 /* LTPanneaux-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-Regular.ttf"; sourceTree = "<group>"; };
+		0CF691672B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-Bold.ttf"; sourceTree = "<group>"; };
+		0CF691682B8E54E700DFB2C2 /* LTPanneaux-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-SemiBold.ttf"; sourceTree = "<group>"; };
+		0CF691692B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0CF6916A2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-Medium.ttf"; sourceTree = "<group>"; };
+		0CF691702B8E550E00DFB2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0CF691712B8E56FB00DFB2C2 /* ReceitaUmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaUmView.swift; sourceTree = "<group>"; };
+		0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaDoisView.swift; sourceTree = "<group>"; };
+		0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaTresView.swift; sourceTree = "<group>"; };
+		0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaQuatroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +117,15 @@
 		0CF691322B8E532700DFB2C2 /* lePetitChef-challengeZero */ = {
 			isa = PBXGroup;
 			children = (
+				0CF691702B8E550E00DFB2C2 /* Info.plist */,
+				0CF691612B8E549C00DFB2C2 /* Fontes */,
 				0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */,
 				0CF691352B8E532700DFB2C2 /* ContentView.swift */,
+				0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */,
+				0CF691712B8E56FB00DFB2C2 /* ReceitaUmView.swift */,
+				0CF691732B8E57E100DFB2C2 /* ReceitaDoisView.swift */,
+				0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */,
+				0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */,
 				0CF691372B8E532800DFB2C2 /* Assets.xcassets */,
 				0CF691392B8E532800DFB2C2 /* Preview Content */,
 			);
@@ -125,6 +155,19 @@
 				0CF691502B8E532900DFB2C2 /* lePetitChef_challengeZeroUITestsLaunchTests.swift */,
 			);
 			path = "lePetitChef-challengeZeroUITests";
+			sourceTree = "<group>";
+		};
+		0CF691612B8E549C00DFB2C2 /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				0CF691672B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf */,
+				0CF691692B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf */,
+				0CF6916A2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf */,
+				0CF691662B8E54E700DFB2C2 /* LTPanneaux-Regular.ttf */,
+				0CF691682B8E54E700DFB2C2 /* LTPanneaux-SemiBold.ttf */,
+				0CF691642B8E54CA00DFB2C2 /* Bubblegum.ttf */,
+			);
+			path = Fontes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF6913B2B8E532800DFB2C2 /* Preview Assets.xcassets in Resources */,
+				0CF6916B2B8E54E700DFB2C2 /* LTPanneaux-Regular.ttf in Resources */,
 				0CF691382B8E532800DFB2C2 /* Assets.xcassets in Resources */,
+				0CF6916C2B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf in Resources */,
+				0CF691652B8E54CA00DFB2C2 /* Bubblegum.ttf in Resources */,
+				0CF6916D2B8E54E700DFB2C2 /* LTPanneaux-SemiBold.ttf in Resources */,
+				0CF6916E2B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf in Resources */,
+				0CF6916F2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF691762B8E580800DFB2C2 /* ReceitaTresView.swift in Sources */,
+				0CF691722B8E56FB00DFB2C2 /* ReceitaUmView.swift in Sources */,
+				0CF691782B8E582200DFB2C2 /* ReceitaQuatroView.swift in Sources */,
 				0CF691362B8E532700DFB2C2 /* ContentView.swift in Sources */,
+				0CF6915E2B8E53FF00DFB2C2 /* HomePageView.swift in Sources */,
 				0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */,
+				0CF691742B8E57E100DFB2C2 /* ReceitaDoisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +478,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lePetitChef-challengeZero/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lePetitChef-challengeZero/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +507,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lePetitChef-challengeZero/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lePetitChef-challengeZero/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
