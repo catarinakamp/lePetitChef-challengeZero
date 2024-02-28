@@ -10,9 +10,10 @@ import SwiftUI
 struct ReceitaUmView: View {
     var recipe: Recipe
     @Binding var router: Router
+    
     var body: some View {
-        
-        FirstView(recipe: recipe)
-        
+            
+        FirstView(router: $router, recipe: recipe)
+            
     }
 }

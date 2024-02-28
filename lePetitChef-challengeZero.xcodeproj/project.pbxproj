@@ -149,14 +149,14 @@
 		0C5A05B42B8ECCA300BDFD81 /* Page Elements */ = {
 			isa = PBXGroup;
 			children = (
-				0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */,
+				0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */,
+				0C5A05BD2B8ED5F300BDFD81 /* VideoPreview.swift */,
+				0C5A05BF2B8ED7CB00BDFD81 /* StepView.swift */,
 				0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */,
 				0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */,
 				0C5A05B92B8ED25800BDFD81 /* EstimatedTime.swift */,
-				0C5A05BD2B8ED5F300BDFD81 /* VideoPreview.swift */,
 				0C5A05BB2B8ED3AF00BDFD81 /* StepsHeader.swift */,
-				0C5A05BF2B8ED7CB00BDFD81 /* StepView.swift */,
-				0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */,
+				0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */,
 			);
 			path = "Page Elements";
 			sourceTree = "<group>";

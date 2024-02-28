@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FirstView: View {
+    @Binding var router: Router
     var recipe: Recipe
     var body: some View {
         NavigationView(content: { NavigationLink(destination:
@@ -17,6 +18,15 @@ struct FirstView: View {
         ) { VStack {
             
             Spacer()
+            Button(action: {
+                
+                router = .homePage
+                
+            }, label: {
+                
+                Text("Button")
+                
+            })
             EstimatedTime(recipe: recipe)
             Spacer()
             
@@ -54,8 +64,4 @@ struct ThirdView: View {
         Spacer()
         
     }
-}
-
-#Preview {
-    FirstView(recipe: Recipe(title: "Ratatouille", estimatedTime: "120 minutos", ingredients: ["Cenoura","Batata","Pepino"], steps: [Steps(numeration: "Primeiro", title: "Corta", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Segundo", title: "Liquidificador", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Terceiro", title: "Cozinhar", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Quarto", title: "Fritar", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: "")]))
 }
