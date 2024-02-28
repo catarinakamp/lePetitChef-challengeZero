@@ -12,6 +12,8 @@ struct StepView: View {
     var body: some View {
         VStack {
             
+            Spacer()
+            
             StepsHeader(step: step)
             
             Spacer(minLength: 30)
@@ -33,6 +35,8 @@ struct StepView: View {
                 .frame(width: 181, height: 50)
                 .background(.customPurple)
                 .clipShape(RoundedRectangle(cornerRadius: 40))//Vai virar um botão
+            
+            Spacer()
             
         }
     }
