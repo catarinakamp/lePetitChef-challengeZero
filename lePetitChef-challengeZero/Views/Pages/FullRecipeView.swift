@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ReceitaUmView: View {
+struct FullRecipeView: View {
     var recipe: Recipe
     @Binding var router: Router
     

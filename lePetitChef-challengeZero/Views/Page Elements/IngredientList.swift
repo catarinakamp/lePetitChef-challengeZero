@@ -31,5 +31,5 @@ struct IngredientList: View {
 }
 
 #Preview {
-    IngredientList(recipe: Recipe(title: "", estimatedTime: "", ingredients: ["item 1", "item 2","item 3","item 4","item 5","item 6"], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+    IngredientList(recipe: OurRecipes().arrayOfRecipes[0])
 }

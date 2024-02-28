@@ -22,13 +22,13 @@ struct RouterControllerView: View {
         case .homePage:
             HomePageView(router: $router)
         case .receitaUm:
-            ReceitaUmView(recipe: Recipe(title: "Ratatouille", estimatedTime: "120 minutos", ingredients: ["Cenoura","Batata","Pepino"], steps: [Steps(numeration: "Primeiro", title: "Corta", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Segundo", title: "Liquidificador", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Terceiro", title: "Cozinhar", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: ""), Steps(numeration: "Quarto", title: "Fritar", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", nomeArquivo: "")]), router: $router)
+            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[0], router: $router)
         case .receitaDois:
-            ReceitaDoisView(router: $router)
+            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[1], router: $router)
         case .receitaTres:
-            ReceitaTresView(router: $router)
+            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[2], router: $router)
         case .receitaQuatro:
-            ReceitaQuatroView(router: $router)
+            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[3], router: $router)
         }
     }
 }

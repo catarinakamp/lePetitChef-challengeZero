@@ -9,8 +9,7 @@ struct VideoPreview: View {
             Player(videoFileName: step.nomeArquivo)
                 .frame(height: UIScreen.main.bounds.height / 4.83)
                 .padding(40)
-            
-            Text(step.title)
+        
                 .foregroundStyle(.white)
             
         }
@@ -37,5 +36,5 @@ struct Player: UIViewControllerRepresentable {
 }
 
 #Preview {
-    VideoPreview(step: Steps(numeration: "", title: "Título", description: "", nomeArquivo: "IMG_0092"))
+    VideoPreview(step: OurRecipes().arrayOfRecipes[0].steps[0])
 }

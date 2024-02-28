@@ -19,19 +19,19 @@ struct HomePageView: View {
             ScrollView{
                 
                 Button(action: {router = .receitaUm}, label: {
-                    RecipePreviews(recipe: Recipe(title: "Ratatouile", estimatedTime: "", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[0])
                 })
                 
                 Button(action: {router = .receitaDois}, label: {
-                    RecipePreviews(recipe: Recipe(title: "Sopa", estimatedTime: "", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[1])
                 })
                 
                 Button(action: {router = .receitaTres}, label: {
-                    RecipePreviews(recipe: Recipe(title: "Torta", estimatedTime: "", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[2])
                 })
                 
                 Button(action: {router = .receitaQuatro}, label: {
-                    RecipePreviews(recipe: Recipe(title: "Blablabla", estimatedTime: "", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[3])
                 })
                 
             }

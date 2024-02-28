@@ -17,16 +17,16 @@ struct FirstView: View {
                                         
         ) { VStack {
             
-            Spacer()
             Button(action: {
-                
-                router = .homePage
-                
-            }, label: {
-                
-                Text("Button")
-                
-            })
+                    
+                    router = .homePage
+                    
+                }, label: {
+                    
+                    Text("Página inicial")
+                    
+                })
+            Spacer()
             EstimatedTime(recipe: recipe)
             Spacer()
             

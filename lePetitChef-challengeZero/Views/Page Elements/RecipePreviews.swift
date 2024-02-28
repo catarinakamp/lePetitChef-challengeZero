@@ -30,5 +30,5 @@ struct RecipePreviews: View {
 }
 
 #Preview {
-    RecipePreviews(recipe: Recipe(title: "Ratatouile", estimatedTime: "", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[0])
 }
