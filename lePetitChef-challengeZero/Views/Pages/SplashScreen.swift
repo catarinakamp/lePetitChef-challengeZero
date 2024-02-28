@@ -12,7 +12,7 @@ struct SplashScreen: View {
     @State private var size = 0.8
     @State private var opacity = 0.5
     
-    let blueChef = Color(red: 60/255.0, green: 63/255.0, blue: 99/255.0)
+    let blueChef = Color(.customPurple)
     var body: some View {
         if isActive {
             RouterControllerView()
