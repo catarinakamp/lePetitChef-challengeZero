@@ -11,6 +11,7 @@
 		0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */; };
 		0C5A05B62B8ECCFF00BDFD81 /* RecipeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */; };
 		0C5A05B82B8ED06600BDFD81 /* IngredientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */; };
+		0C5A05BA2B8ED25800BDFD81 /* EstimatedTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B92B8ED25800BDFD81 /* EstimatedTime.swift */; };
 		0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */; };
 		0CF691362B8E532700DFB2C2 /* RouterControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */; };
 		0CF691382B8E532800DFB2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691372B8E532800DFB2C2 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreviews.swift; sourceTree = "<group>"; };
 		0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStruct.swift; sourceTree = "<group>"; };
 		0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientList.swift; sourceTree = "<group>"; };
+		0C5A05B92B8ED25800BDFD81 /* EstimatedTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedTime.swift; sourceTree = "<group>"; };
 		0CF691302B8E532700DFB2C2 /* lePetitChef-challengeZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lePetitChef-challengeZero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lePetitChef_challengeZeroApp.swift; sourceTree = "<group>"; };
 		0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterControllerView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */,
 				0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */,
 				0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */,
+				0C5A05B92B8ED25800BDFD81 /* EstimatedTime.swift */,
 			);
 			path = "Page Elements";
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				0C5A05B82B8ED06600BDFD81 /* IngredientList.swift in Sources */,
 				0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */,
 				0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */,
+				0C5A05BA2B8ED25800BDFD81 /* EstimatedTime.swift in Sources */,
 				0CF691742B8E57E100DFB2C2 /* ReceitaDoisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
