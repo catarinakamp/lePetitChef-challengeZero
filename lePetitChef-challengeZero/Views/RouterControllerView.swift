@@ -15,7 +15,7 @@ enum Router{
     case receitaQuatro
 }
 
-struct ContentView: View {
+struct RouterControllerView: View {
     @State var router: Router = .homePage
     var body: some View {
         switch router {
@@ -34,5 +34,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    RouterControllerView()
 }

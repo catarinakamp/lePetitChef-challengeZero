@@ -10,11 +10,6 @@ import SwiftUI
 struct ReceitaUmView: View {
     @Binding var router: Router
     var body: some View {
-        Text("1").font(.largeTitle)
-        Button(action: {
-            router = .homePage
-        }, label: {
-            Text("homePage")
-        })
+        Text("")
     }
 }

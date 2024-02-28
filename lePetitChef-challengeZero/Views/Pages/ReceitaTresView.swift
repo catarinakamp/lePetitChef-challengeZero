@@ -10,12 +10,7 @@ import SwiftUI
 struct ReceitaTresView: View {
     @Binding var router: Router
     var body: some View {
-        Text("3").font(.largeTitle)
-        Button(action: {
-            router = .homePage
-        }, label: {
-            Text("homePage")
-        })
+        Text("")
     }
 }
 

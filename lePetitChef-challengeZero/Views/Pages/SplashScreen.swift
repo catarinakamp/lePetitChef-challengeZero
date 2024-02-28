@@ -15,7 +15,7 @@ struct SplashScreen: View {
     let blueChef = Color(red: 60/255.0, green: 63/255.0, blue: 99/255.0)
     var body: some View {
         if isActive {
-            ContentView()
+            RouterControllerView()
         } else {
             ZStack {
                 blueChef

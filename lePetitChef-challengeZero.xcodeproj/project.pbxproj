@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C5A05A22B8EBABC00BDFD81 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05A12B8EBABC00BDFD81 /* Receita.swift */; };
+		0C5A05AA2B8EC4E500BDFD81 /* HeaderHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */; };
+		0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */; };
+		0C5A05B62B8ECCFF00BDFD81 /* RecipeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */; };
+		0C5A05B82B8ED06600BDFD81 /* IngredientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */; };
 		0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */; };
-		0CF691362B8E532700DFB2C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691352B8E532700DFB2C2 /* ContentView.swift */; };
+		0CF691362B8E532700DFB2C2 /* RouterControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */; };
 		0CF691382B8E532800DFB2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691372B8E532800DFB2C2 /* Assets.xcassets */; };
 		0CF6913B2B8E532800DFB2C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6913A2B8E532800DFB2C2 /* Preview Assets.xcassets */; };
 		0CF691452B8E532800DFB2C2 /* lePetitChef_challengeZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691442B8E532800DFB2C2 /* lePetitChef_challengeZeroTests.swift */; };
@@ -47,10 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5A05A12B8EBABC00BDFD81 /* Receita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receita.swift; sourceTree = "<group>"; };
+		0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomePageView.swift; sourceTree = "<group>"; };
+		0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreviews.swift; sourceTree = "<group>"; };
+		0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStruct.swift; sourceTree = "<group>"; };
+		0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientList.swift; sourceTree = "<group>"; };
 		0CF691302B8E532700DFB2C2 /* lePetitChef-challengeZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lePetitChef-challengeZero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lePetitChef_challengeZeroApp.swift; sourceTree = "<group>"; };
-		0CF691352B8E532700DFB2C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterControllerView.swift; sourceTree = "<group>"; };
 		0CF691372B8E532800DFB2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CF6913A2B8E532800DFB2C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CF691402B8E532800DFB2C2 /* lePetitChef-challengeZeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lePetitChef-challengeZeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +107,8 @@
 		0C5A05A32B8EBAD400BDFD81 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0C5A05A12B8EBABC00BDFD81 /* Receita.swift */,
 				0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */,
+				0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,7 +116,16 @@
 		0C5A05A42B8EBAF100BDFD81 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0CF691352B8E532700DFB2C2 /* ContentView.swift */,
+				0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */,
+				0C5A05B42B8ECCA300BDFD81 /* Page Elements */,
+				0C5A05B32B8ECC6000BDFD81 /* Pages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C5A05B32B8ECC6000BDFD81 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
 				AAA459152B8E604F0017D168 /* SplashScreen.swift */,
 				0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */,
 				0CF691712B8E56FB00DFB2C2 /* ReceitaUmView.swift */,
@@ -118,7 +133,17 @@
 				0CF691752B8E580800DFB2C2 /* ReceitaTresView.swift */,
 				0CF691772B8E582200DFB2C2 /* ReceitaQuatroView.swift */,
 			);
-			path = Views;
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		0C5A05B42B8ECCA300BDFD81 /* Page Elements */ = {
+			isa = PBXGroup;
+			children = (
+				0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */,
+				0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */,
+				0C5A05B72B8ED06600BDFD81 /* IngredientList.swift */,
+			);
+			path = "Page Elements";
 			sourceTree = "<group>";
 		};
 		0CF691272B8E532700DFB2C2 = {
@@ -328,14 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5A05AA2B8EC4E500BDFD81 /* HeaderHomePageView.swift in Sources */,
 				AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */,
 				0CF691762B8E580800DFB2C2 /* ReceitaTresView.swift in Sources */,
+				0C5A05B62B8ECCFF00BDFD81 /* RecipeStruct.swift in Sources */,
 				0CF691722B8E56FB00DFB2C2 /* ReceitaUmView.swift in Sources */,
 				0CF691782B8E582200DFB2C2 /* ReceitaQuatroView.swift in Sources */,
-				0CF691362B8E532700DFB2C2 /* ContentView.swift in Sources */,
+				0CF691362B8E532700DFB2C2 /* RouterControllerView.swift in Sources */,
 				0CF6915E2B8E53FF00DFB2C2 /* HomePageView.swift in Sources */,
+				0C5A05B82B8ED06600BDFD81 /* IngredientList.swift in Sources */,
 				0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */,
-				0C5A05A22B8EBABC00BDFD81 /* Receita.swift in Sources */,
+				0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */,
 				0CF691742B8E57E100DFB2C2 /* ReceitaDoisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
