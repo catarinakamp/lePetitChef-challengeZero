@@ -13,6 +13,7 @@ struct EtapaReceita{
 }
 
 struct Receita{
+    var nomeReceita: String
     var ingredientes: [String]
     var tempoEstimado: String
     var etapas: [EtapaReceita]
