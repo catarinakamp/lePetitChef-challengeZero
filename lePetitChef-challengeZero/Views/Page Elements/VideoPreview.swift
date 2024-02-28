@@ -2,14 +2,17 @@ import SwiftUI
 import AVKit
 
 struct VideoPreview: View {
+    var step: Steps
     var body: some View {
         ZStack{
-            // videoFilename com o nome do arquivo do video
-            Player(videoFileName: "IMG_0092")
+           
+            Player(videoFileName: step.nomeArquivo)
                 .frame(height: UIScreen.main.bounds.height / 4.83)
                 .padding(40)
-            Text("VIDEO")
+            
+            Text(step.title)
                 .foregroundStyle(.white)
+            
         }
     }
 }
@@ -34,5 +37,5 @@ struct Player: UIViewControllerRepresentable {
 }
 
 #Preview {
-    VideoPreview()
+    VideoPreview(step: Steps(numeration: "", title: "Título", description: "", nomeArquivo: "IMG_0092"))
 }

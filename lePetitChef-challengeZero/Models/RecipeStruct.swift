@@ -11,6 +11,7 @@ struct Steps {
     var numeration: String // Exemplo: "Primeiro", "Segundo"...
     var title: String // Exemplo: "Cortar alho"
     var description: String // Passo a passo detalhado
+    var nomeArquivo: String
     // Criar uma variável com URL/Nome/Arquivo do vídeo assim que descobrir a maneira como se insere vídeos
 }
 

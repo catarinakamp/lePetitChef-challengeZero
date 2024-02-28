@@ -23,7 +23,7 @@ struct StepView: View {
                 .foregroundColor(.black)
                 .frame(width: 291, height: 100, alignment: .leading)
             
-            VideoPreview()
+            VideoPreview(step: step)
             
             Spacer()
                         
@@ -43,5 +43,5 @@ struct StepView: View {
 }
 
 #Preview {
-    StepView(step: Steps(numeration: "Nésimo", title: "Lorem ipsum", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "))
+    StepView(step: Steps(numeration: "Nésimo", title: "Lorem ipsum", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ", nomeArquivo: ""))
 }

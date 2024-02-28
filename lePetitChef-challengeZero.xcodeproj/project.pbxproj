@@ -15,6 +15,7 @@
 		0C5A05BC2B8ED3AF00BDFD81 /* StepsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05BB2B8ED3AF00BDFD81 /* StepsHeader.swift */; };
 		0C5A05BE2B8ED5F300BDFD81 /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05BD2B8ED5F300BDFD81 /* VideoPreview.swift */; };
 		0C5A05C02B8ED7CB00BDFD81 /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05BF2B8ED7CB00BDFD81 /* StepView.swift */; };
+		0C5B667D2B8FB27000CF9715 /* NavigationReceitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */; };
 		0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */; };
 		0CF691362B8E532700DFB2C2 /* RouterControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */; };
 		0CF691382B8E532800DFB2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691372B8E532800DFB2C2 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		0C5A05BB2B8ED3AF00BDFD81 /* StepsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsHeader.swift; sourceTree = "<group>"; };
 		0C5A05BD2B8ED5F300BDFD81 /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
 		0C5A05BF2B8ED7CB00BDFD81 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationReceitaView.swift; sourceTree = "<group>"; };
 		0CF691302B8E532700DFB2C2 /* lePetitChef-challengeZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lePetitChef-challengeZero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF691332B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lePetitChef_challengeZeroApp.swift; sourceTree = "<group>"; };
 		0CF691352B8E532700DFB2C2 /* RouterControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterControllerView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				0C5A05BD2B8ED5F300BDFD81 /* VideoPreview.swift */,
 				0C5A05BB2B8ED3AF00BDFD81 /* StepsHeader.swift */,
 				0C5A05BF2B8ED7CB00BDFD81 /* StepView.swift */,
+				0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */,
 			);
 			path = "Page Elements";
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5B667D2B8FB27000CF9715 /* NavigationReceitaView.swift in Sources */,
 				0C5A05C02B8ED7CB00BDFD81 /* StepView.swift in Sources */,
 				0C5A05BE2B8ED5F300BDFD81 /* VideoPreview.swift in Sources */,
 				0C5A05AA2B8EC4E500BDFD81 /* HeaderHomePageView.swift in Sources */,
