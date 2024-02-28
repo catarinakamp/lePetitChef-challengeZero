@@ -127,7 +127,7 @@ class OurRecipes {
             )
         ]),
         
-        Recipe(title: "Crème Brulée", estimatedTime: "60 minutos", ingredients: [
+        Recipe(title: "Crème Brûlée", estimatedTime: "60 minutos", ingredients: [
             "500ml de creme de leite fresco",
             "6 gemas de ovos",
             "100g de açúcar",

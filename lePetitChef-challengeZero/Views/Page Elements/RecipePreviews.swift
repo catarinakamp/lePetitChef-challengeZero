@@ -13,16 +13,20 @@ struct RecipePreviews: View {
         
         ZStack {
             
-            Rectangle()
-                .foregroundStyle(.black)
-                .cornerRadius(20)
-                .padding()
-                .frame(width:300,height: 200)
+            Image(recipe.title)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 310)
+                .clipShape(RoundedRectangle(cornerRadius: 40))
             
+            RoundedRectangle(cornerRadius: 40)
+                .frame(width: 310, height: 200)
+                .opacity(0.5)
+                .foregroundColor(.black)
+                        
             Text(recipe.title)
                 .font(Font
-                    .custom("LT Panneaux", size: 24)
-                    .weight(.heavy))
+                    .custom("LT Panneaux", size: 24))
                 .foregroundColor(.white)
             
         }
