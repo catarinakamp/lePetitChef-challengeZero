@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ReceitaUmView: View {
+    var recipe: Recipe
     @Binding var router: Router
     var body: some View {
-        Text("")
+        
+        FirstView(recipe: recipe)
+        
     }
 }

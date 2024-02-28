@@ -19,7 +19,8 @@ struct EstimatedTime: View {
             .padding()//diminuir espaço
         
         Image(systemName: "clock")
-            .padding()//diminuir espaço
+            .padding()
+            .foregroundStyle(.black)
         
         Text(recipe.estimatedTime)
             .font(Font
@@ -30,5 +31,5 @@ struct EstimatedTime: View {
 }
 
 #Preview {
-    EstimatedTime(recipe: Recipe(title: "", estimatedTime: "120 minutos", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "")]))
+    EstimatedTime(recipe: Recipe(title: "", estimatedTime: "120 minutos", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
 }
