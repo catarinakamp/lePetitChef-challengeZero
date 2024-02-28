@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct EtapaReceita{
+    var instrucoes: String
+    var videoUrl: String
+}
+
+struct Receita{
+    var ingredientes: [String]
+    var tempoEstimado: String
+    var etapas: [EtapaReceita]
+    
+}
