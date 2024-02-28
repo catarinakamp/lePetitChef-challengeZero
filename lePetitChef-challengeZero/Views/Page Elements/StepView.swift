@@ -14,6 +14,8 @@ struct StepView: View {
             
             StepsHeader(step: step)
             
+            Spacer(minLength: 30)
+            
             Text(step.description)
                 .font(Font.custom("LT Panneaux", size: 16))
                 .foregroundColor(.black)
@@ -21,10 +23,16 @@ struct StepView: View {
             
             VideoPreview()
             
+            Spacer()
+                        
             Text("Próxima etapa")
+                .font(Font.custom("LT Panneaux", size: 16)
+                .weight(.bold))
+                .foregroundStyle(.white)
                 .padding()
-                .background(.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 25))
+                .frame(width: 181, height: 50)
+                .background(.customPurple)
+                .clipShape(RoundedRectangle(cornerRadius: 40))//Vai virar um botão
             
         }
     }
