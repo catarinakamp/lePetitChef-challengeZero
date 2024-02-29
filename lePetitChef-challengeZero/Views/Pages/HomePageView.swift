@@ -20,7 +20,7 @@ struct HomePageView: View {
                     
                     VStack (alignment: .leading, spacing: -2) { //HeaderHomePageView()
                         
-                        Text("Bonjour,") //HeaderHomePageView()
+                        Text("Bonjour") //HeaderHomePageView()
                             .font(Font //HeaderHomePageView()
                                 .custom("LT Panneaux", size: 32) //HeaderHomePageView()
                                 .weight(.heavy)) //HeaderHomePageView()

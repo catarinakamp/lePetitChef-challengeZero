@@ -15,7 +15,7 @@ struct HeaderHomePageView: View {
             
             VStack (alignment: .leading, spacing: -2) {
                 
-                Text("Bonjour,")
+                Text("Bonjour")
                     .font(Font
                         .custom("LT Panneaux", size: 32)
                         .weight(.heavy))
