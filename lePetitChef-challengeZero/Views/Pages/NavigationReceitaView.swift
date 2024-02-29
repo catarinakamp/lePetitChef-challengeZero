@@ -12,29 +12,35 @@ struct FirstView: View {
     var recipe: Recipe
     
     var body: some View {
-        NavigationView {
-            NavigationLink(
-                destination: SecondView(router: $router, recipe: recipe),
-                label: {
-                    VStack {
-                        Spacer()
-                        EstimatedTime(recipe: recipe)
-                        Spacer()
-                    }
-                }
-            )
-            .navigationBarTitle("", displayMode: .inline)
-            .navigationBarItems(
-                leading:
-                    Button(action: {
-                        router = .homePage
-                    }) {
-                        HStack {
-                            Image(systemName: "chevron.backward")
-                            Text("Back")
+        VStack {
+            
+            Text("Testando")
+            
+            NavigationView {
+                NavigationLink(
+                    destination: SecondView(router: $router, recipe: recipe),
+                    label: {
+                        VStack {
+                            Spacer()
+                            EstimatedTime(recipe: recipe)
+                            Spacer()
                         }
                     }
-            )
+                )
+                .navigationBarTitle("", displayMode: .inline)
+                .navigationBarItems(
+                    leading:
+                        Button(action: {
+                            router = .homePage
+                        }) {
+                            HStack {
+                                Image(systemName: "chevron.backward")
+                                Text("Back")
+                            }
+                        }
+                )
+            }
+            
         }
     }
 }
@@ -58,16 +64,3 @@ struct SecondView: View {
         }
     }
 }
-
-
-//struct ThirdView: View {
-//    var recipe: Recipe
-//    var body: some View {
-//
-//        Spacer()
-//        StepView(step: recipe.steps[0])
-//        Spacer()
-//
-//    }
-//}
-
