@@ -20,7 +20,7 @@ struct RecipePreviews: View {
                 .clipShape(RoundedRectangle(cornerRadius: 40))
             
             RoundedRectangle(cornerRadius: 40)
-                .frame(width: 310, height: 200)
+                .frame(width: 310)
                 .opacity(0.5)
                 .foregroundColor(.black)
             
