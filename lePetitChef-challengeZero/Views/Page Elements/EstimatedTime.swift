@@ -31,5 +31,5 @@ struct EstimatedTime: View {
 }
 
 #Preview {
-    EstimatedTime(recipe: Recipe(title: "", estimatedTime: "120 minutos", ingredients: [""], steps: [Steps(numeration: "", title: "", description: "", nomeArquivo: "")]))
+    EstimatedTime(recipe: OurRecipes().arrayOfRecipes[0])
 }

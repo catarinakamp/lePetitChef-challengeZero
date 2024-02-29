@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct HeaderHomePageView: View {
+    @State var visibility: Visibility
     var body: some View {
+        
         HStack{
             
-            VStack(alignment: .leading, spacing: -2){
+            VStack (alignment: .leading, spacing: -2) {
                 
                 Text("Bonjour,")
                     .font(Font
@@ -39,13 +41,18 @@ struct HeaderHomePageView: View {
                 .foregroundColor(.black)
                 
             }
-            
-            Image(systemName: "info.circle")
-            
+               
+            Button(action: {
+                visibility = .isVisible
+            }, label: {
+                Image(systemName: "info.circle")
+                    .foregroundStyle(.black)
+                
+            })
         }
     }
 }
 
 #Preview {
-    HeaderHomePageView()
+    HeaderHomePageView(visibility: .notVisible)
 }
