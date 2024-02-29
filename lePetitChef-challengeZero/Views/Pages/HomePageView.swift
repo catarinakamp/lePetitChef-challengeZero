@@ -14,7 +14,7 @@ struct HomePageView: View {
         ZStack {
             VStack{
                 
-                HeaderHomePageView(visibility: visibility)
+                HeaderHomePageView(visibility: $visibility)
                 
                 ScrollView{
                     
@@ -39,7 +39,7 @@ struct HomePageView: View {
             
             if visibility == .isVisible {
                 
-                InfoPopUp(visibility: visibility)
+                InfoPopUp(visibility: $visibility)
                 
                 
             }

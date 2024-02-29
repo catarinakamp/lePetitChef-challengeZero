@@ -13,7 +13,9 @@ enum Visibility {
 }
 
 struct InfoPopUp: View {
-    @State var visibility: Visibility
+    
+    @Binding var visibility: Visibility
+    
     var body: some View {
         
         ZStack {
@@ -56,5 +58,5 @@ struct InfoPopUp: View {
 }
 
 #Preview {
-    InfoPopUp(visibility: .isVisible)
+    InfoPopUp(visibility: .constant(.isVisible))
 }

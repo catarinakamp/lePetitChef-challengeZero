@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct HeaderHomePageView: View {
-    @State var visibility: Visibility
+    @Binding var visibility: Visibility
+    
     var body: some View {
         
         HStack{
@@ -54,5 +55,5 @@ struct HeaderHomePageView: View {
 }
 
 #Preview {
-    HeaderHomePageView(visibility: .notVisible)
+    HeaderHomePageView(visibility: .constant(.isVisible))
 }
