@@ -14,7 +14,7 @@ struct FirstView: View {
     var body: some View {
         NavigationView {
             NavigationLink(
-                destination: SecondView(recipe: recipe),
+                destination: SecondView(router: $router, recipe: recipe),
                 label: {
                     VStack {
                         Spacer()
@@ -41,11 +41,12 @@ struct FirstView: View {
 
 
 struct SecondView: View {
+    @Binding var router: Router
     var recipe: Recipe
     var body: some View {
         NavigationLink(destination:
                         
-                        ThirdView(recipe: recipe)
+                        StepView(router: $router,recipe: recipe)
                        
         ) { VStack {
             
@@ -59,14 +60,14 @@ struct SecondView: View {
 }
 
 
-struct ThirdView: View {
-    var recipe: Recipe
-    var body: some View {
-        
-        Spacer()
-        StepView(step: recipe.steps[0])
-        Spacer()
-        
-    }
-}
+//struct ThirdView: View {
+//    var recipe: Recipe
+//    var body: some View {
+//        
+//        Spacer()
+//        StepView(step: recipe.steps[0])
+//        Spacer()
+//        
+//    }
+//}
 
