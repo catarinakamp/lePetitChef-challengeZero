@@ -9,33 +9,44 @@ import SwiftUI
 
 struct HomePageView: View {
     @Binding var router: Router
+    @State var visibility: Visibility = .isVisible
     var body: some View {
-        VStack{
+        ZStack {
+            VStack {
+                VStack{
+                                
+                    HeaderHomePageView(visibility: visibility).padding()
+                    
+                    }
+                
+                    ScrollView{
+                        
+                        Button(action: {router = .receitaUm}, label: {
+                            RecipePreviews(recipe: OurRecipes().arrayOfRecipes[0])
+                        })
+                        
+                        Button(action: {router = .receitaDois}, label: {
+                            RecipePreviews(recipe: OurRecipes().arrayOfRecipes[1])
+                        })
+                        
+                        Button(action: {router = .receitaTres}, label: {
+                            RecipePreviews(recipe: OurRecipes().arrayOfRecipes[2])
+                        })
+                        
+                        Button(action: {router = .receitaQuatro}, label: {
+                            RecipePreviews(recipe: OurRecipes().arrayOfRecipes[3])
+                        })
+                        
+                    }
+                }
             
-            HeaderHomePageView()
-            
-            }
-        
-            ScrollView{
-                
-                Button(action: {router = .receitaUm}, label: {
-                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[0])
-                })
-                
-                Button(action: {router = .receitaDois}, label: {
-                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[1])
-                })
-                
-                Button(action: {router = .receitaTres}, label: {
-                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[2])
-                })
-                
-                Button(action: {router = .receitaQuatro}, label: {
-                    RecipePreviews(recipe: OurRecipes().arrayOfRecipes[3])
-                })
-                
+            switch visibility {
+            case .isVisible:
+                InfoPopUp(visibility: .isVisible)
+            case .notVisible:
+                Text("")
             }
         }
     }
-
+}
 

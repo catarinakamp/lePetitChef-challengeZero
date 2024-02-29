@@ -22,13 +22,13 @@ struct RouterControllerView: View {
         case .homePage:
             HomePageView(router: $router)
         case .receitaUm:
-            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[0], router: $router)
+            FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
         case .receitaDois:
-            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[1], router: $router)
+            FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
         case .receitaTres:
-            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[2], router: $router)
+            FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
         case .receitaQuatro:
-            FullRecipeView(recipe: OurRecipes().arrayOfRecipes[3], router: $router)
+            FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
         }
     }
 }

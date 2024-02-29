@@ -8,8 +8,8 @@ struct VideoPreview: View {
            
             Player(videoFileName: step.nomeArquivo)
                 .frame(height: UIScreen.main.bounds.height / 4.83)
+                .clipShape(RoundedRectangle(cornerRadius: 20))
                 .padding(40)
-        
                 .foregroundStyle(.white)
             
         }

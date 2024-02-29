@@ -23,8 +23,12 @@ struct FirstView: View {
                     
                 }, label: {
                     
-                    Text("Página inicial")
-                    
+                    HStack {
+                        
+                        Image(systemName: "chevron.backward")
+                        Text("Back")
+                        
+                    }
                 })
             Spacer()
             EstimatedTime(recipe: recipe)

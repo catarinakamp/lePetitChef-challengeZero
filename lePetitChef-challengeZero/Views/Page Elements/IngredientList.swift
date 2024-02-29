@@ -12,6 +12,8 @@ struct IngredientList: View {
     var body: some View {
         VStack {
             
+            Spacer(minLength: 100)
+
             Text("Ingredientes")
                 .font(Font
                     .custom("LT Panneaux", size: 24)
@@ -19,13 +21,18 @@ struct IngredientList: View {
                 .foregroundColor(.black)
                 .padding()
             
-            ForEach(recipe.ingredients, id: \.self) { item in
-                Text(item)
-                    .font(Font
-                        .custom("LT Panneaux", size: 24))
-                    .foregroundColor(.black)
-                  }
+            ScrollView {
+                ForEach(recipe.ingredients, id: \.self) { item in
+                    Text(item)
+                        .padding(3)
+                        .font(Font
+                            .custom("LT Panneaux", size: 20))
+                        .foregroundColor(.black)
+                        .frame(width: 300)
+                }
+            }
             
+            Spacer(minLength: 100)
         }
     }
 }
