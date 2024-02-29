@@ -16,11 +16,11 @@ struct StepView: View {
         VStack {
             
             Spacer(minLength: 40)
-                        
+            
             StepsHeader(step: recipe.steps[currentStepIndex])
             
             Spacer(minLength: 40)
-                        
+            
             ScrollView {
                 
                 Text(recipe.steps[currentStepIndex].description)
@@ -39,14 +39,14 @@ struct StepView: View {
                 } label: {
                     Text("Próxima etapa")
                         .font(Font.custom("LT Panneaux", size: 16)
-                        .weight(.bold))
+                            .weight(.bold))
                         .foregroundStyle(.white)
                         .padding()
                         .frame(width: 181, height: 50)
                         .background(.customPurple)
                         .clipShape(RoundedRectangle(cornerRadius: 40))
                 }
-
+                
                 Spacer()
                 
             }

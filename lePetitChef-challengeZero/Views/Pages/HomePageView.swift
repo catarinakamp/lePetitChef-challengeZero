@@ -85,8 +85,7 @@ struct HomePageView: View {
                 
                 ZStack{ //InfoPopUp()
                     
-                    BlurView(style: .systemUltraThinMaterial)
-                    
+                    BlurView(style: .systemUltraThinMaterialDark)
                     ZStack {
                         
                         RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/) //InfoPopUp()

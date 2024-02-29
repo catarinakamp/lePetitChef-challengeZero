@@ -63,11 +63,11 @@ struct SecondView: View {
 //struct ThirdView: View {
 //    var recipe: Recipe
 //    var body: some View {
-//        
+//
 //        Spacer()
 //        StepView(step: recipe.steps[0])
 //        Spacer()
-//        
+//
 //    }
 //}
 

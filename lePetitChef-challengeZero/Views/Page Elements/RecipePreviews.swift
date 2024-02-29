@@ -23,7 +23,7 @@ struct RecipePreviews: View {
                 .frame(width: 310, height: 200)
                 .opacity(0.5)
                 .foregroundColor(.black)
-                        
+            
             Text(recipe.title)
                 .font(Font
                     .custom("LT Panneaux", size: 24))

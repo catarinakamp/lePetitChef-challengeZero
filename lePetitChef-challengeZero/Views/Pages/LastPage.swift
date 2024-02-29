@@ -32,7 +32,7 @@ struct LastPage: View {
                     Text("Retornar")
                         .padding(EdgeInsets(top: 7, leading: 28, bottom: 7, trailing: 28))
                         .font(Font.custom("LT Panneaux", size: 16)
-                        .weight(.bold))
+                            .weight(.bold))
                         .foregroundStyle(.linguineOrange)
                         .background(.white)
                         .clipShape(RoundedRectangle(cornerRadius: 40))

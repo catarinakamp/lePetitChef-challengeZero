@@ -13,7 +13,7 @@ struct IngredientList: View {
         VStack {
             
             Spacer(minLength: 100)
-
+            
             Text("Ingredientes")
                 .font(Font
                     .custom("LT Panneaux", size: 24)

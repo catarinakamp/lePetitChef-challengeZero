@@ -41,7 +41,7 @@ struct HeaderHomePageView: View {
                 .foregroundColor(.black)
                 
             }
-               
+            
             Button(action: {
                 visibility = .isVisible
             }, label: {
