@@ -29,6 +29,7 @@ struct IngredientList: View {
                             .custom("LT Panneaux", size: 20))
                         .foregroundColor(.black)
                         .frame(width: 300)
+                        .multilineTextAlignment(.center)
                 }
             }
             
@@ -38,5 +39,5 @@ struct IngredientList: View {
 }
 
 #Preview {
-    IngredientList(recipe: OurRecipes().arrayOfRecipes[0])
+    IngredientList(recipe: OurRecipes().arrayOfRecipes[1])
 }

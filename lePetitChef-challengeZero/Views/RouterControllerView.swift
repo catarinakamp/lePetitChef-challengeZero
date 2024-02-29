@@ -13,6 +13,7 @@ enum Router{
     case receitaDois
     case receitaTres
     case receitaQuatro
+    case lastPage
 }
 
 struct RouterControllerView: View {
@@ -29,6 +30,8 @@ struct RouterControllerView: View {
             FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
         case .receitaQuatro:
             FirstView(router: $router, recipe: OurRecipes().arrayOfRecipes[0])
+        case .lastPage:
+            LastPage(router: $router)
         }
     }
 }

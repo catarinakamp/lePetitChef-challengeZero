@@ -10,42 +10,42 @@ import SwiftUI
 struct FirstView: View {
     @Binding var router: Router
     var recipe: Recipe
+    
     var body: some View {
-        NavigationView(content: { NavigationLink(destination:
-                                        
-            SecondView(recipe: recipe)
-                                        
-        ) { VStack {
-            
-            Button(action: {
-                    
-                    router = .homePage
-                    
-                }, label: {
-                    
-                    HStack {
-                        
-                        Image(systemName: "chevron.backward")
-                        Text("Back")
-                        
+        NavigationView {
+            NavigationLink(
+                destination: SecondView(recipe: recipe),
+                label: {
+                    VStack {
+                        Spacer()
+                        EstimatedTime(recipe: recipe)
+                        Spacer()
                     }
-                })
-            Spacer()
-            EstimatedTime(recipe: recipe)
-            Spacer()
-            
+                }
+            )
+            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarItems(
+                leading:
+                    Button(action: {
+                        router = .homePage
+                    }) {
+                        HStack {
+                            Image(systemName: "chevron.backward")
+                            Text("Back")
+                        }
+                    }
+            )
         }
-        }
-        })
     }
 }
+
 
 struct SecondView: View {
     var recipe: Recipe
     var body: some View {
         NavigationLink(destination:
                         
-            ThirdView(recipe: recipe)
+                        ThirdView(recipe: recipe)
                        
         ) { VStack {
             
@@ -69,3 +69,4 @@ struct ThirdView: View {
         
     }
 }
+
