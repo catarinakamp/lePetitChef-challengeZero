@@ -14,7 +14,10 @@ struct FirstView: View {
     var body: some View {
         VStack {
             
-            Text("Testando")
+            Text(recipe.title)
+                .font(Font
+                    .custom("LT Panneaux", size: 24)
+                    .weight(.heavy))
             
             NavigationView {
                 NavigationLink(
