@@ -10,14 +10,14 @@ import SwiftUI
 struct StepView: View {
     @Binding var router: Router
     var recipe: Recipe
-    @State private var currentStepIndex: Int = 0
+    @State var currentStepIndex: Int = 0
     
     var body: some View {
             ScrollView {
                 
                 Spacer(minLength: 40)
                 
-                StepsHeader(step: recipe.steps[currentStepIndex])
+                StepsHeader(currentStepIndex: $currentStepIndex, step: recipe.steps[currentStepIndex], recipe: recipe)
                 
                 Spacer(minLength: 40)
                 
