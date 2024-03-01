@@ -8,24 +8,40 @@
 import SwiftUI
 
 struct EstimatedTime: View {
+    @State private var textOpacity: Double = 0.0
     var recipe: Recipe
     var body: some View {
         
-        Text("Tempo previsto")
-            .font(Font
-                .custom("LT Panneaux", size: 24)
-                .weight(.heavy))
-            .foregroundColor(.black)
-            .padding()//diminuir espaço
+        VStack {
+            
+            Text("Tempo previsto")
+                .font(Font
+                    .custom("LT Panneaux", size: 24)
+                    .weight(.heavy))
+                .foregroundColor(.black)
+                .padding()//diminuir espaço
+            
+            Image(systemName: "clock")
+                .padding()
+                .foregroundStyle(.black)
+            
+            Text(recipe.estimatedTime)
+                .font(Font
+                    .custom("LT Panneaux", size: 20))
+                .foregroundColor(.black)
+                        
+        }
+        .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2.2)
         
-        Image(systemName: "clock")
-            .padding()
-            .foregroundStyle(.black)
         
-        Text(recipe.estimatedTime)
+        Text ("Clique na tela para continuar")
+        .padding(70)
+            .foregroundStyle(.lightGrayCustom)
             .font(Font
                 .custom("LT Panneaux", size: 20))
-            .foregroundColor(.black)
+            .opacity(textOpacity)
+                            .onAppear {withAnimation(.easeIn(duration: 1.0)) {
+                                    textOpacity = 1.0}}
         
     }
 }

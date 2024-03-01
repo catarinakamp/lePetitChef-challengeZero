@@ -8,20 +8,21 @@
 import SwiftUI
 
 struct IngredientList: View {
+    @State private var textOpacity: Double = 0.0
     var recipe: Recipe
     var body: some View {
-        VStack {
+        ScrollView {
             
             Spacer(minLength: 100)
+         
+                Text("Ingredientes")
+                    .font(Font
+                        .custom("LT Panneaux", size: 24)
+                        .weight(.heavy))
+                    .foregroundColor(.black)
+                    .padding()
             
-            Text("Ingredientes")
-                .font(Font
-                    .custom("LT Panneaux", size: 24)
-                    .weight(.heavy))
-                .foregroundColor(.black)
-                .padding()
             
-            ScrollView {
                 ForEach(recipe.ingredients, id: \.self) { item in
                     Text(item)
                         .padding(3)
@@ -31,8 +32,16 @@ struct IngredientList: View {
                         .frame(width: 300)
                         .multilineTextAlignment(.center)
                 }
-            }
-            
+
+                Text ("Clique na tela para continuar")
+                .padding(70)
+                    .foregroundStyle(.lightGrayCustom)
+                    .font(Font
+                        .custom("LT Panneaux", size: 20))
+                    .opacity(textOpacity)
+                                    .onAppear {withAnimation(.easeIn(duration: 1.0)) {
+                                            textOpacity = 1.0}}
+                            
             Spacer(minLength: 100)
         }
     }

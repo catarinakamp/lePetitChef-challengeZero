@@ -13,7 +13,7 @@ struct RecipePreviews: View {
         
         ZStack {
             
-            Image(recipe.title)
+            Image(recipe.imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 310)

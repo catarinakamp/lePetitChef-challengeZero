@@ -13,15 +13,13 @@ struct StepView: View {
     @State private var currentStepIndex: Int = 0
     
     var body: some View {
-        VStack {
-            
-            Spacer(minLength: 40)
-            
-            StepsHeader(step: recipe.steps[currentStepIndex])
-            
-            Spacer(minLength: 40)
-            
             ScrollView {
+                
+                Spacer(minLength: 40)
+                
+                StepsHeader(step: recipe.steps[currentStepIndex])
+                
+                Spacer(minLength: 40)
                 
                 Text(recipe.steps[currentStepIndex].description)
                     .font(Font.custom("LT Panneaux", size: 20))
@@ -50,6 +48,5 @@ struct StepView: View {
                 Spacer()
                 
             }
-        }
     }
 }

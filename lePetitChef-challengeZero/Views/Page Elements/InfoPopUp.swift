@@ -28,11 +28,16 @@ struct InfoPopUp: View {
                 .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
                 .frame(width: 350, height: 300)
             
-            Image("remy-teste")
-                .resizable()
-                .scaledToFit()
-                .position(CGPoint(x: 300, y: 500))
-                .frame(height: 400)
+            GeometryReader { geometry in
+                let imageSize = CGSize(width: geometry.size.width * 0.6, height: geometry.size.height * 1)
+                let imagePosition = CGPoint(x: geometry.size.width - imageSize.width / 2.5, y: geometry.size.height - imageSize.height / 8)
+
+                Image("remy-teste")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: imageSize.width, height: imageSize.height)
+                    .position(imagePosition)
+            }
             
             VStack {
                 

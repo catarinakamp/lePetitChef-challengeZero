@@ -20,6 +20,7 @@ struct Recipe {
     var estimatedTime: String
     var ingredients: [String]
     var steps: [Steps]
+    var imageName: String
 }
 
 

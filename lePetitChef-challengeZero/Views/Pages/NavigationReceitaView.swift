@@ -12,13 +12,6 @@ struct FirstView: View {
     var recipe: Recipe
     
     var body: some View {
-        VStack {
-            
-            Text(recipe.title)
-                .font(Font
-                    .custom("LT Panneaux", size: 24)
-                    .weight(.heavy))
-            
             NavigationView {
                 NavigationLink(
                     destination: SecondView(router: $router, recipe: recipe),
@@ -43,8 +36,6 @@ struct FirstView: View {
                         }
                 )
             }
-            
-        }
     }
 }
 

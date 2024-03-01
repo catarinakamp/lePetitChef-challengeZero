@@ -47,7 +47,7 @@ class OurRecipes {
                 description: "Retire o ratatouille do forno e deixe esfriar por alguns minutos. Sirva em pratos individuais, decorando com folhas de manjericão fresco.",
                 nomeArquivo: ""
             )
-        ]),
+        ],imageName: "ratatouille"),
         
         Recipe(title: "Tomato soup", estimatedTime: "40 minutos", ingredients: [
             "1 kg de tomates maduros",
@@ -84,7 +84,7 @@ class OurRecipes {
                 description: "Retire a panela do fogo e use um liquidificador de imersão para purê a sopa até ficar homogênea. Se preferir uma consistência mais fina, você pode passar a sopa por uma peneira fina. Prove a sopa e ajuste o tempero, se necessário. Sirva a sopa quente, decorada com algumas folhas de manjericão fresco por cima. Acompanhe com pão fresco ou torradas.",
                 nomeArquivo: ""
             )
-        ]),
+        ],imageName: "tomato-soup"),
         
         Recipe(title: "Croque Monsier", estimatedTime: "30 minutos", ingredients: [
             "4 fatias de pão de forma",
@@ -125,9 +125,9 @@ class OurRecipes {
                 description: "Sirva os Croque Monsieurs quentes, acompanhados de salada verde ou batatas fritas, se desejar.",
                 nomeArquivo: ""
             )
-        ]),
+        ],imageName: "croque-monsier"),
         
-        Recipe(title: "Crème Brûlée", estimatedTime: "60 minutos", ingredients: [
+        Recipe(title: "Crèmme Brûlée", estimatedTime: "60 minutos", ingredients: [
             "500ml de creme de leite fresco",
             "6 gemas de ovos",
             "100g de açúcar",
@@ -164,7 +164,7 @@ class OurRecipes {
                 description: "Sirva os Crèmes Brûlées frios e aproveite a deliciosa combinação de texturas entre a crosta crocante e o creme macio.",
                 nomeArquivo: ""
             )
-        ] )
+        ],imageName: "cremme-brulee")
         
     ]
     
