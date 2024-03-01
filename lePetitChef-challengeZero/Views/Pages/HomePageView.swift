@@ -12,7 +12,7 @@ struct HomePageView: View {
     @State var visibility: Visibility = .notVisible
     var body: some View {
         ZStack {
-            VStack{
+            VStack (alignment: .leading){
                 
                 HeaderHomePageView(visibility: $visibility)
                 

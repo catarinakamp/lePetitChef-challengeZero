@@ -31,7 +31,7 @@ struct EstimatedTime: View {
                 .foregroundColor(.black)
                         
         }
-        .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2.2)
+        .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2.5)
         
         
         Text ("Clique na tela para continuar")

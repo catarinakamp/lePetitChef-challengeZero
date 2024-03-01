@@ -12,17 +12,17 @@ struct HeaderHomePageView: View {
     
     var body: some View {
         
-        HStack{
+        HStack (alignment: .top){
             
             VStack (alignment: .leading, spacing: -2) {
                 
-                Text("Bonjour")
-                    .font(Font
-                        .custom("LT Panneaux", size: 32)
-                        .weight(.heavy))
-                    .foregroundColor(.black)
-                
                 HStack{
+                    
+                    Text("Bonjour")
+                        .font(Font
+                            .custom("LT Panneaux", size: 32)
+                            .weight(.heavy))
+                        .foregroundColor(.black)
                     
                     Text("Linguine").font(Font
                         .custom("LT Panneaux", size: 32)
@@ -37,8 +37,7 @@ struct HeaderHomePageView: View {
                 }
                 
                 Text("Explore receitas").font(Font
-                    .custom("LT Panneaux", size: 32)
-                    .weight(.heavy))
+                    .custom("LT Panneaux", size: 28))
                 .foregroundColor(.black)
                 
             }
@@ -47,7 +46,12 @@ struct HeaderHomePageView: View {
                 visibility = .isVisible
             }, label: {
                 Image(systemName: "info.circle")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20)
                     .foregroundStyle(.black)
+                    .padding(.top, 11)
+                    .padding(.leading, 30)
                 
             })
         }
