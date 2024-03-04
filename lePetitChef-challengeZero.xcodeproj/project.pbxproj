@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3D46A12B96619800694A86 /* LogoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D46A02B96619800694A86 /* LogoScreen.swift */; };
+		0C3D46A32B9661B500694A86 /* RemyTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D46A22B9661B500694A86 /* RemyTips.swift */; };
 		0C5A05AA2B8EC4E500BDFD81 /* HeaderHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */; };
 		0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */; };
 		0C5A05B62B8ECCFF00BDFD81 /* RecipeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3D46A02B96619800694A86 /* LogoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoScreen.swift; sourceTree = "<group>"; };
+		0C3D46A22B9661B500694A86 /* RemyTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemyTips.swift; sourceTree = "<group>"; };
 		0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomePageView.swift; sourceTree = "<group>"; };
 		0C5A05B12B8ECBA400BDFD81 /* RecipePreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreviews.swift; sourceTree = "<group>"; };
 		0C5A05B52B8ECCFF00BDFD81 /* RecipeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStruct.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				AAA459152B8E604F0017D168 /* SplashScreen.swift */,
+				0C3D46A02B96619800694A86 /* LogoScreen.swift */,
+				0C3D46A22B9661B500694A86 /* RemyTips.swift */,
 				0CF6915D2B8E53FF00DFB2C2 /* HomePageView.swift */,
 				0C5B667C2B8FB27000CF9715 /* NavigationReceitaView.swift */,
 				AAE207022B90C05E006FBE94 /* LastPage.swift */,
@@ -373,9 +379,11 @@
 			files = (
 				0C5B667D2B8FB27000CF9715 /* NavigationReceitaView.swift in Sources */,
 				0C5A05C02B8ED7CB00BDFD81 /* StepView.swift in Sources */,
+				0C3D46A32B9661B500694A86 /* RemyTips.swift in Sources */,
 				0C5A05BE2B8ED5F300BDFD81 /* VideoPreview.swift in Sources */,
 				0C5A05AA2B8EC4E500BDFD81 /* HeaderHomePageView.swift in Sources */,
 				AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */,
+				0C3D46A12B96619800694A86 /* LogoScreen.swift in Sources */,
 				0C5A05BC2B8ED3AF00BDFD81 /* StepsHeader.swift in Sources */,
 				0C5A05B62B8ECCFF00BDFD81 /* RecipeStruct.swift in Sources */,
 				0CF691362B8E532700DFB2C2 /* RouterControllerView.swift in Sources */,
