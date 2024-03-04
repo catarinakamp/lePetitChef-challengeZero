@@ -23,7 +23,7 @@ struct StepView: View {
                 
                 Text(recipe.steps[currentStepIndex].description)
                     .font(Font.custom("LT Panneaux", size: 20))
-                    .foregroundColor(.black)
+                    .foregroundColor(.costumBlack)
                     .frame(width: 291, alignment: .leading)
                 
                 VideoPreview(step: recipe.steps[currentStepIndex])
@@ -36,14 +36,7 @@ struct StepView: View {
                     }
                 } label: {
                     Text("Próxima etapa")
-                        .font(Font.custom("LT Panneaux", size: 16)
-                            .weight(.bold))
-                        .foregroundStyle(.white)
-                        .padding()
-                        .frame(width: 181, height: 50)
-                        .background(.customPurple)
-                        .clipShape(RoundedRectangle(cornerRadius: 40))
-                }
+                }.buttonStyle(BlueButtonStyle())
                 
                 Spacer()
                 

@@ -20,7 +20,14 @@ struct FirstView: View {
                     NavigationLink(
                         destination: SecondView(router: $router, recipe: recipe),
                         label: {
-                            Text("Botão")
+                            Text("Ver ingredientes")
+                                .font(Font.custom("LT Panneaux", size: 16)
+                                .weight(.bold))
+                                .foregroundStyle(.white)
+                                .padding()
+                                .frame(width: 181, height: 50)
+                                .background(.colorButton)
+                                .clipShape(RoundedRectangle(cornerRadius: 40))
                         }
                     )
                     .navigationBarTitle("", displayMode: .inline)
@@ -54,7 +61,14 @@ struct SecondView: View {
                         StepView(router: $router,recipe: recipe)
                        
         ) {
-            Text("Button")
+            Text("Começar")
+                .font(Font.custom("LT Panneaux", size: 16)
+                .weight(.bold))
+                .foregroundStyle(.white)
+                .padding()
+                .frame(width: 181, height: 50)
+                .background(.colorButton)
+                .clipShape(RoundedRectangle(cornerRadius: 40))
         }
     }
 }

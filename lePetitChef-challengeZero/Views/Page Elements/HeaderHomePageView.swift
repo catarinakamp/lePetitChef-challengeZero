@@ -22,7 +22,7 @@ struct HeaderHomePageView: View {
                         .font(Font
                             .custom("LT Panneaux", size: 32)
                             .weight(.heavy))
-                        .foregroundColor(.black)
+                        .foregroundColor(.costumBlack)
                     
                     Text("Linguine").font(Font
                         .custom("LT Panneaux", size: 32)
@@ -32,13 +32,13 @@ struct HeaderHomePageView: View {
                     Text("!").font(Font
                         .custom("LT Panneaux", size: 32)
                         .weight(.heavy))
-                    .foregroundColor(.black)
+                    .foregroundColor(.costumBlack)
                     
                 }
                 
                 Text("Explore receitas").font(Font
                     .custom("LT Panneaux", size: 28))
-                .foregroundColor(.black)
+                .foregroundColor(.costumBlack)
                 
             }
             
@@ -49,7 +49,7 @@ struct HeaderHomePageView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20)
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.costumBlack)
                     .padding(.top, 11)
                     .padding(.leading, 30)
                 

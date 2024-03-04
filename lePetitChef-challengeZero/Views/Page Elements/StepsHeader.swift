@@ -17,7 +17,7 @@ struct StepsHeader: View {
                 .custom("LT Panneaux", size: 24)
                 .weight(
                     .heavy))
-            .foregroundColor(.black)
+            .foregroundColor(.costumBlack)
             .frame(width: 287, alignment: .leading) //conferir se é bom colocar width
         
         Text(step.title)
@@ -25,7 +25,7 @@ struct StepsHeader: View {
                 .custom("LT Panneaux", size: 20)
                 .weight(
                     .bold))
-            .foregroundColor(.black)
+            .foregroundColor(.costumBlack)
             .frame(width: 287, alignment: .leading)//conferir se é bom colocar width
         
     }

@@ -19,7 +19,7 @@ struct IngredientList: View {
                 .font(Font
                     .custom("LT Panneaux", size: 24)
                     .weight(.heavy))
-                .foregroundColor(.black)
+                .foregroundColor(.costumBlack)
                 .padding()
             
             
@@ -28,7 +28,7 @@ struct IngredientList: View {
                     .padding(3)
                     .font(Font
                         .custom("LT Panneaux", size: 20))
-                    .foregroundColor(.black)
+                    .foregroundColor(.costumBlack)
                     .frame(width: 300)
                     .multilineTextAlignment(.center)
             }

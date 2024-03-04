@@ -18,31 +18,20 @@ struct EstimatedTime: View {
                 .font(Font
                     .custom("LT Panneaux", size: 24)
                     .weight(.heavy))
-                .foregroundColor(.black)
-                .padding()//diminuir espaço
+                .foregroundColor(.costumBlack)
+                .padding()
             
             Image(systemName: "clock")
                 .padding()
-                .foregroundStyle(.black)
+                .foregroundStyle(.costumBlack)
             
             Text(recipe.estimatedTime)
                 .font(Font
                     .custom("LT Panneaux", size: 20))
-                .foregroundColor(.black)
+                .foregroundColor(.costumBlack)
                         
         }
         .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2.5)
-        
-        
-//        Text ("Clique na tela para continuar")
-//        .padding(70)
-//            .foregroundStyle(.lightGrayCustom)
-//            .font(Font
-//                .custom("LT Panneaux", size: 20))
-//            .opacity(textOpacity)
-//                            .onAppear {withAnimation(.easeIn(duration: 1.0)) {
-//                                    textOpacity = 1.0}}
-        
     }
 }
 

@@ -34,6 +34,7 @@
 		0CF6916E2B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF691692B8E54E700DFB2C2 /* LTPanneaux-ExtraBold.ttf */; };
 		0CF6916F2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6916A2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf */; };
 		AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA459152B8E604F0017D168 /* SplashScreen.swift */; };
+		AAD967F22B926DEC004AD097 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD967F12B926DEC004AD097 /* ButtonStyle.swift */; };
 		AAE207032B90C05E006FBE94 /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE207022B90C05E006FBE94 /* LastPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		0CF6916A2B8E54E700DFB2C2 /* LTPanneaux-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LTPanneaux-Medium.ttf"; sourceTree = "<group>"; };
 		0CF691702B8E550E00DFB2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AAA459152B8E604F0017D168 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		AAD967F12B926DEC004AD097 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		AAE207022B90C05E006FBE94 /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +159,7 @@
 				0C5A05A92B8EC4E500BDFD81 /* HeaderHomePageView.swift */,
 				0C6616152B9020FB00E83B33 /* InfoPopUp.swift */,
 				0C6616172B902E0200E83B33 /* BlurView.swift */,
+				AAD967F12B926DEC004AD097 /* ButtonStyle.swift */,
 			);
 			path = "Page Elements";
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				0CF691342B8E532700DFB2C2 /* lePetitChef_challengeZeroApp.swift in Sources */,
 				0C5A05B22B8ECBA400BDFD81 /* RecipePreviews.swift in Sources */,
 				0C5A05BA2B8ED25800BDFD81 /* EstimatedTime.swift in Sources */,
+				AAD967F22B926DEC004AD097 /* ButtonStyle.swift in Sources */,
 				0C5B667F2B8FC05D00CF9715 /* OurRecipes.swift in Sources */,
 				AAE207032B90C05E006FBE94 /* LastPage.swift in Sources */,
 			);
@@ -548,6 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lePetitChef-challengeZero/Preview Content\"";
+				DEVELOPMENT_TEAM = SA6H3Z62MK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lePetitChef-challengeZero/Info.plist";
@@ -577,6 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lePetitChef-challengeZero/Preview Content\"";
+				DEVELOPMENT_TEAM = SA6H3Z62MK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lePetitChef-challengeZero/Info.plist";
