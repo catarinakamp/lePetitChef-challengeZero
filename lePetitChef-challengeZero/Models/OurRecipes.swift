@@ -12,159 +12,210 @@ class OurRecipes {
     var arrayOfRecipes: [Recipe] = [
         
         Recipe(title: "Ratatouille", estimatedTime: "120 minutos", ingredients: [
-            "2 berinjelas médias",
-            "2 abobrinhas médias",
+            "2 berinjelas",
+            "2 abobrinhas",
             "2 pimentões vermelhos",
             "2 pimentões amarelos",
-            "4 tomates grandes",
-            "1 cebola grande",
+            "4 tomates",
+            "1 cebola",
             "4 dentes de alho",
             "Azeite de oliva extra virgem",
             "Sal e pimenta-do-reino a gosto",
-            "Folhas de manjericão fresco para decorar"
+            "Folhas de manjericão"
         ], steps: [
             Steps(
                 numeration: "Primeiro",
                 title: "Preparar os Legumes",
-                description: "Lave todos os legumes. Corte as berinjelas, as abobrinhas, os pimentões e os tomates em rodelas de aproximadamente 0,5 cm de espessura. Fatie a cebola em meias-luas finas e pique o alho.",
-                nomeArquivo: ""
+                description: "Lave todos os legumes. Corte as berinjelas, as abobrinhas, os pimentões e os tomates em rodelas. Fatie a cebola em meias-luas finas e pique o alho.",
+                nomeArquivo: "cortarAlimentos"
             ),
             Steps(
                 numeration: "Segundo",
-                title: "Montar o Ratatouille",
+                title: "Montar e temperar",
                 description: "Em uma assadeira grande, distribua as rodelas de legumes intercaladas em pé, formando fileiras. Tempere os legumes com sal e pimenta-do-reino a gosto e regue com azeite de oliva.",
-                nomeArquivo: ""
+                nomeArquivo: "temperos"
             ),
             Steps(
                 numeration: "Terceiro",
                 title: "Assar",
-                description: "Leve a assadeira ao forno preaquecido a 180°C por cerca de 45 minutos a 1 hora, ou até que os legumes estejam macios e dourados.",
-                nomeArquivo: ""
-            ),
-            Steps(
-                numeration: "Quarto",
-                title: "Servir",
-                description: "Retire o ratatouille do forno e deixe esfriar por alguns minutos. Sirva em pratos individuais, decorando com folhas de manjericão fresco.",
-                nomeArquivo: ""
+                description: "Leve a assadeira ao forno preaquecido a 180°C por cerca de 45 minutos. Retire o ratatouille do forno e sirva em pratos individuais, decorando com folhas de manjericão fresco.",
+                nomeArquivo: "pegarIngredientes"
             )
-        ],imageName: "ratatouille"),
-        
-        Recipe(title: "Tomato soup", estimatedTime: "40 minutos", ingredients: [
-            "1 kg de tomates maduros",
-            "1 cebola grande, picada",
-            "2 dentes de alho picados",
-            "2 colheres de sopa de azeite de oliva",
+        ], imageName: "ratatouille"),
+
+        Recipe(title: "Sopa de Tomate", estimatedTime: "45 minutos", ingredients: [
+            "1kg de tomate",
+            "1 cebola",
+            "2 cenouras",
+            "2 dentes de alho",
             "4 xícaras de caldo de legumes",
+            "2 colheres de sopa de azeite de oliva",
             "1 colher de chá de açúcar",
+            "1 colher de chá de tomilho seco",
             "Sal e pimenta a gosto",
-            "Folhas de manjericão fresco para decorar",
-            "Creme de leite fresco ou iogurte natural (opcional)"
+            "Folhas de manjericão fresco para decorar"
         ], steps: [
             Steps(
                 numeration: "Primeiro",
-                title: "Preparar os Tomates",
-                description: "Lave os tomates e faça um corte em cruz na parte inferior de cada um. Coloque os tomates em uma panela com água fervente por alguns minutos, até que a pele comece a se soltar. Retire os tomates da água e coloque-os em água gelada para esfriar. Remova a pele dos tomates e pique grosseiramente.",
-                nomeArquivo: ""
+                title: "Preparar Ingredientes",
+                description: "Corte os tomates em pedaços, pique a cebola, descasque e pique as cenouras, e pique o alho.",
+                nomeArquivo: "cortarAlimentos"
             ),
             Steps(
                 numeration: "Segundo",
-                title: "Refogar os Vegetais",
-                description: "Em uma panela grande, aqueça o azeite de oliva em fogo médio. Adicione a cebola picada e refogue até que fique macia e translúcida, por cerca de 5 minutos. Adicione o alho picado e refogue por mais 1 minuto.",
-                nomeArquivo: ""
+                title: "Refogar Vegetais",
+                description: "Em uma panela grande, aqueça o azeite de oliva. Adicione a cebola e o alho picados, refogando até que fiquem dourados. Adicione as cenouras e continue cozinhando por mais alguns minutos.",
+                nomeArquivo: "ingredientesPanela"
             ),
             Steps(
                 numeration: "Terceiro",
-                title: "Cozinhar os Ingredientes",
-                description: "Adicione os tomates picados à panela, juntamente com o caldo de legumes, o açúcar, o sal e a pimenta. Deixe ferver e depois reduza o fogo para médio-baixo. Cozinhe por cerca de 20-25 minutos, até que os tomates estejam bem cozidos.",
-                nomeArquivo: ""
+                title: "Adicionar Tomates e Temperos",
+                description: "Acrescente os tomates cortados à panela. Tempere com açúcar, tomilho seco, sal e pimenta a gosto.",
+                nomeArquivo: "temperos"
             ),
             Steps(
                 numeration: "Quarto",
-                title: "Purê e Servir",
-                description: "Retire a panela do fogo e use um liquidificador de imersão para purê a sopa até ficar homogênea. Se preferir uma consistência mais fina, você pode passar a sopa por uma peneira fina. Prove a sopa e ajuste o tempero, se necessário. Sirva a sopa quente, decorada com algumas folhas de manjericão fresco por cima. Acompanhe com pão fresco ou torradas.",
-                nomeArquivo: ""
+                title: "Cozinhar e Liquidificar",
+                description: "Adicione o caldo de vegetais ou frango à panela. Leve a sopa para ferver e, em seguida, reduza o fogo. Cozinhe por mais 20 minutos. Use um liquidificador ou mixer de mão para purê a sopa até obter uma consistência cremosa.",
+                nomeArquivo: "pegarIngredientes"
             )
-        ],imageName: "tomato-soup"),
+        ], imageName: "tomato-soup"),
+
         
-        Recipe(title: "Croque Monsier", estimatedTime: "30 minutos", ingredients: [
-            "4 fatias de pão de forma",
+        Recipe(title: "Croque Monsieur", estimatedTime: "25 minutos", ingredients: [
+            "8 fatias de pão de forma",
             "4 fatias de presunto",
-            "150g de queijo gruyère ou emmental ralado",
-            "4 colheres de sopa de molho bechamel",
-            "2 colheres de sopa de manteiga",
-            "Sal e pimenta a gosto",
-            "Noz-moscada ralada a gosto"
+            "200g de queijo gruyère",
+            "50g de queijo parmesão",
+            "4 colheres de sopa de manteiga",
+            "4 colheres de sopa de farinha de trigo",
+            "2 xícaras de leite",
+            "1 colher de chá de mostarda Dijon",
+            "Noz-moscada a gosto",
+            "Sal e pimenta a gosto"
         ], steps: [
             Steps(
                 numeration: "Primeiro",
-                title: "Montagem",
-                description: "Em cada fatia de pão de forma, coloque uma fatia de presunto e uma porção do queijo ralado. Tempere com sal, pimenta e noz-moscada a gosto.",
-                nomeArquivo: ""
+                title: "Preparar Ingredientes",
+                description: "Pique o queijo gruyère e o queijo parmesão. Reserve.",
+                nomeArquivo: "cortarAlimentos"
             ),
             Steps(
                 numeration: "Segundo",
-                title: "Molho Bechamel",
-                description: "Prepare o molho bechamel derretendo a manteiga em uma panela, adicionando a farinha e mexendo até formar uma pasta. Aos poucos, adicione o leite, mexendo sempre até engrossar. Tempere com sal e noz-moscada a gosto.",
-                nomeArquivo: ""
+                title: "Preparar o Molho Béchamel",
+                description: "Em uma panela, derreta a manteiga em fogo médio. Adicione a farinha e mexa continuamente por 3 minutos. Gradualmente, adicione o leite, mexendo constantemente até obter um molho cremoso. Acrescente a mostarda Dijon, noz-moscada, sal e pimenta a gosto.",
+                nomeArquivo: "baterIngredientes"
             ),
             Steps(
                 numeration: "Terceiro",
-                title: "Montagem Final",
-                description: "Espalhe uma colher de sopa de molho bechamel sobre cada fatia de pão montada com presunto e queijo. Feche os sanduíches, pressionando levemente.",
-                nomeArquivo: ""
+                title: "Montar os Croque Monsieur",
+                description: "Em uma assadeira, coloque 4 fatias de pão. Em cada fatia, coloque uma fatia de presunto, uma porção do queijo gruyère ralado e um pouco do molho Béchamel. Cubra com as fatias de pão restantes.",
+                nomeArquivo: "pegarIngredientes"
             ),
             Steps(
                 numeration: "Quarto",
+                title: "Adicionar o Molho e Queijo",
+                description: "Despeje o molho Béchamel restante sobre os sanduíches. Polvilhe com o queijo parmesão ralado.",
+                nomeArquivo: "jogarMolho"
+            ),
+            Steps(
+                numeration: "Quinto",
                 title: "Assar",
-                description: "Em uma frigideira ou chapa aquecida, derreta um pouco de manteiga. Doure os sanduíches dos dois lados até que o queijo esteja derretido e o pão esteja dourado e crocante.",
-                nomeArquivo: ""
-            ),
-            Steps(
-                numeration: "Quinto",
-                title: "Servir",
-                description: "Sirva os Croque Monsieurs quentes, acompanhados de salada verde ou batatas fritas, se desejar.",
-                nomeArquivo: ""
+                description: "Asse os Croque Monsieur em forno preaquecido a 200°C por cerca de 10 minutos, ou até que fiquem dourados e borbulhantes. Retire do forno e sirva os Croque Monsieur quentes.",
+                nomeArquivo: "mexerPanela"
             )
-        ],imageName: "croque-monsier"),
+        ], imageName: "croque-monsier"),
         
-        Recipe(title: "Crèmme Brûlée", estimatedTime: "60 minutos", ingredients: [
-            "500ml de creme de leite fresco",
-            "6 gemas de ovos",
-            "100g de açúcar",
-            "1 colher de chá de extrato de baunilha",
-            "Açúcar cristal para caramelizar"
+        Recipe(title: "Crème Brûlée", estimatedTime: "120 minutes", ingredients: [
+            "6 gemas de ovo",
+            "1/2 xícara de açúcar",
+            "2 xícaras de creme de leite",
+            "1 colher de chá de essência de baunilha",
+            "Açúcar para caramelizar"
         ], steps: [
             Steps(
                 numeration: "Primeiro",
-                title: "Preparar a Mistura",
-                description: "Pré-aqueça o forno a 150°C. Em uma panela, aqueça o creme de leite até quase ferver. Em uma tigela separada, bata as gemas de ovos com o açúcar até obter uma mistura clara e homogênea. Adicione o extrato de baunilha.",
-                nomeArquivo: ""
+                title: "Quebrar Ovos e Separar Gemas",
+                description: "Quebre os ovos, separe as gemas das claras e reserve apenas as gemas.",
+                nomeArquivo: "quebrarOvo"
             ),
             Steps(
                 numeration: "Segundo",
-                title: "Mistura e Cozimento",
-                description: "Misture gradualmente o creme de leite quente na mistura de gemas, mexendo constantemente. Coe a mistura através de uma peneira fina para remover quaisquer grumos. Divida a mistura em ramequins individuais.",
-                nomeArquivo: ""
+                title: "Preparar Mistura de Gemas",
+                description: "Pré-aqueça o forno a 150°C. Em uma tigela, bata as gemas com açúcar até obter uma mistura homogênea.",
+                nomeArquivo: "baterIngredientes"
             ),
             Steps(
                 numeration: "Terceiro",
-                title: "Banho-Maria e Assar",
-                description: "Coloque os ramequins em uma assadeira funda. Adicione água quente na assadeira até alcançar metade da altura dos ramequins, criando um banho-maria. Asse no forno pré-aquecido por cerca de 40-45 minutos, ou até que o creme esteja firme nas bordas, mas ainda ligeiramente tremido no centro.",
-                nomeArquivo: ""
+                title: "Aquecer Creme de Leite",
+                description: "Em uma panela, aqueça o creme de leite até começar a ferver. Adicione a essência de baunilha.",
+                nomeArquivo: "temperos"
             ),
             Steps(
                 numeration: "Quarto",
-                title: "Resfriamento e Caramelização",
-                description: "Retire os ramequins do banho-maria e deixe esfriar em temperatura ambiente. Em seguida, leve à geladeira por pelo menos 2 horas ou durante a noite para firmar. Antes de servir, polvilhe uma fina camada de açúcar cristal sobre cada creme e caramelizar com um maçarico culinário até que o açúcar esteja derretido e formando uma crosta dourada.",
-                nomeArquivo: ""
+                title: "Adicionar Gemas à Mistura de Creme",
+                description: "Despeje gradualmente o creme de leite quente sobre a mistura de gemas, mexendo constantemente. Coe a mistura para remover qualquer grumo.",
+                nomeArquivo: "variasPanelas"
             ),
             Steps(
                 numeration: "Quinto",
-                title: "Servir",
-                description: "Sirva os Crèmes Brûlées frios e aproveite a deliciosa combinação de texturas entre a crosta crocante e o creme macio.",
-                nomeArquivo: ""
+                title: "Assar",
+                description: "Despeje a mistura em ramequins. Asse em banho-maria no forno por cerca de 45 minutos. Antes de servir, polvilhe açúcar sobre a superfície do creme e use um maçarico para caramelizar.",
+                nomeArquivo: "pegarIngredientes"
             )
-        ],imageName: "cremme-brulee")
+        ], imageName: "cremme-brulee"),
+        
+        Recipe(title: "Coq au Vin", estimatedTime: "120 minutos", ingredients: [
+            "1 frango",
+            "200g de bacon",
+            "1 cebola",
+            "2 cenouras",
+            "4 dentes de alho",
+            "250ml de vinho tinto seco",
+            "250ml de caldo de galinha",
+            "2 colheres de sopa de farinha de trigo",
+            "2 colheres de sopa de manteiga",
+            "1 bouquet garni",
+            "Sal e pimenta a gosto"
+        ], steps: [
+            Steps(
+                numeration: "Primeiro",
+                title: "Preparar Ingredientes",
+                description: "Pique o frango em pedaços, o bacon em cubos, a cebola, a cenoura em rodelas e o alho.",
+                nomeArquivo: "cortandoFaca"
+            ),
+            Steps(
+                numeration: "Segundo",
+                title: "Dourar o Frango e Bacon",
+                description: "Em uma panela grande, derreta a manteiga em fogo médio. Adicione o bacon e cozinhe até dourar. Retire o bacon e reserve. Em seguida, doure os pedaços de frango em todos os lados. Tempere com sal e pimenta.",
+                nomeArquivo: "mexerPanela"
+            ),
+            Steps(
+                numeration: "Terceiro",
+                title: "Adicionar Vegetais",
+                description: "Adicione a cebola, a cenoura e o alho picado à panela. Cozinhe por alguns minutos até que os vegetais estejam macios.",
+                nomeArquivo: "ingredientesPanela"
+            ),
+            Steps(
+                numeration: "Quarto",
+                title: "Polvilhar com Farinha",
+                description: "Polvilhe a farinha sobre os ingredientes e mexa bem para incorporar.",
+                nomeArquivo: "variasPanelas"
+            ),
+            Steps(
+                numeration: "Quinto",
+                title: "Deglacear com Vinho Tinto",
+                description: "Despeje o vinho tinto na panela para deglacear, raspando o fundo para soltar os sabores. Adicione o caldo de galinha e o bouquet garni. Coloque o bacon dourado de volta à panela.",
+                nomeArquivo: "vinhoCopo"
+            ),
+            Steps(
+                numeration: "Sexto",
+                title: "Cozinhar Lentamente",
+                description: "Reduza o fogo, tampe a panela e cozinhe em fogo baixo por aproximadamente 1 hora e meia a 2 horas, ou até que o frango esteja bem cozido e o molho tenha engrossado.",
+                nomeArquivo: "mexerPanela"
+            )
+        ], imageName: "coq_au_vin")
+
         
     ]
     

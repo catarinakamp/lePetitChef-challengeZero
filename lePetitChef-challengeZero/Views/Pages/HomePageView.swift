@@ -34,6 +34,10 @@ struct HomePageView: View {
                         RecipePreviews(recipe: OurRecipes().arrayOfRecipes[3])
                     })
                     
+                    Button(action: {router = .receitaCinco}, label: {
+                        RecipePreviews(recipe: OurRecipes().arrayOfRecipes[4])
+                    })
+                    
                 }
             }
             

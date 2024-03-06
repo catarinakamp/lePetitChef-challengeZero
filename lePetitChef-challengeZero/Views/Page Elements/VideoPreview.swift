@@ -5,13 +5,12 @@ struct VideoPreview: View {
     var step: Steps
     var body: some View {
         ZStack{
-            
             Player(videoFileName: step.nomeArquivo)
                 .frame(height: UIScreen.main.bounds.height / 4.83)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .padding(40)
                 .foregroundStyle(.white)
-            
+            Text(step.nomeArquivo).foregroundStyle(.white)
         }
     }
 }
@@ -21,7 +20,6 @@ struct Player: UIViewControllerRepresentable {
     }
     
     let videoFileName: String
-    
     func makeUIViewController(context: Context) -> AVPlayerViewController {
         let controller = AVPlayerViewController()
         
@@ -30,11 +28,10 @@ struct Player: UIViewControllerRepresentable {
             let player = AVPlayer(url: videoURL)
             controller.player = player
         }
-        
         return controller
     }
 }
 
 #Preview {
-    VideoPreview(step: OurRecipes().arrayOfRecipes[0].steps[0])
+    VideoPreview(step: OurRecipes().arrayOfRecipes[0].steps[2])
 }
