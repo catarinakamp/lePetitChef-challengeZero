@@ -50,10 +50,10 @@
 		AA6684D42B990B2E00DEA8E6 /* pegarIngredientes.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA6684C42B990B2E00DEA8E6 /* pegarIngredientes.mov */; };
 		AA6684D52B990B2E00DEA8E6 /* jogarMolho.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA6684C52B990B2E00DEA8E6 /* jogarMolho.mov */; };
 		AA6684D62B990B2E00DEA8E6 /* escolherTomate.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA6684C62B990B2E00DEA8E6 /* escolherTomate.mov */; };
-		AA6684D72B990B2E00DEA8E6 /* cortandoFaca.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA6684C72B990B2E00DEA8E6 /* cortandoFaca.mov */; };
 		AAA459162B8E604F0017D168 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA459152B8E604F0017D168 /* SplashScreen.swift */; };
 		AAD967F22B926DEC004AD097 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD967F12B926DEC004AD097 /* ButtonStyle.swift */; };
 		AAE207032B90C05E006FBE94 /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE207022B90C05E006FBE94 /* LastPage.swift */; };
+		AAFCB6F12B9A33D0002718D4 /* cortandoFaca.mov in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB6F02B9A33D0002718D4 /* cortandoFaca.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,10 +121,10 @@
 		AA6684C42B990B2E00DEA8E6 /* pegarIngredientes.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pegarIngredientes.mov; sourceTree = "<group>"; };
 		AA6684C52B990B2E00DEA8E6 /* jogarMolho.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = jogarMolho.mov; sourceTree = "<group>"; };
 		AA6684C62B990B2E00DEA8E6 /* escolherTomate.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = escolherTomate.mov; sourceTree = "<group>"; };
-		AA6684C72B990B2E00DEA8E6 /* cortandoFaca.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = cortandoFaca.mov; path = ../../../../Downloads/cortandoFaca.mov; sourceTree = "<group>"; };
 		AAA459152B8E604F0017D168 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		AAD967F12B926DEC004AD097 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		AAE207022B90C05E006FBE94 /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
+		AAFCB6F02B9A33D0002718D4 /* cortandoFaca.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cortandoFaca.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,9 +277,9 @@
 		AA6684B12B9667E900DEA8E6 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				AAFCB6F02B9A33D0002718D4 /* cortandoFaca.mov */,
 				AA6684C32B990B2D00DEA8E6 /* cheiroComida.mov */,
 				AA6684B92B990B2B00DEA8E6 /* colocarMacarrao.mov */,
-				AA6684C72B990B2E00DEA8E6 /* cortandoFaca.mov */,
 				AA6684BE2B990B2C00DEA8E6 /* cortarCebola.mov */,
 				AA6684C62B990B2E00DEA8E6 /* escolherTomate.mov */,
 				AA6684B82B990B2B00DEA8E6 /* explosaoSabores.mov */,
@@ -405,7 +405,6 @@
 				AA6684D52B990B2E00DEA8E6 /* jogarMolho.mov in Resources */,
 				AA6684B32B9667FF00DEA8E6 /* quebrarOvo.mov in Resources */,
 				AA6684CC2B990B2E00DEA8E6 /* mexerPanela.mov in Resources */,
-				AA6684D72B990B2E00DEA8E6 /* cortandoFaca.mov in Resources */,
 				AA6684CA2B990B2E00DEA8E6 /* temperos.mov in Resources */,
 				0CF6913B2B8E532800DFB2C2 /* Preview Assets.xcassets in Resources */,
 				AA6684D12B990B2E00DEA8E6 /* virarPanqueca.mov in Resources */,
@@ -415,6 +414,7 @@
 				AA6684CD2B990B2E00DEA8E6 /* variasPanelas.mov in Resources */,
 				AA6684CF2B990B2E00DEA8E6 /* ingredientesPanela.mov in Resources */,
 				AA6684D02B990B2E00DEA8E6 /* vinhoCopo.mov in Resources */,
+				AAFCB6F12B9A33D0002718D4 /* cortandoFaca.mov in Resources */,
 				0CF691382B8E532800DFB2C2 /* Assets.xcassets in Resources */,
 				0CF6916C2B8E54E700DFB2C2 /* LTPanneaux-Bold.ttf in Resources */,
 				0CF691652B8E54CA00DFB2C2 /* Bubblegum.ttf in Resources */,
