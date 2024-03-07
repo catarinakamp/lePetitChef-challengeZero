@@ -27,7 +27,7 @@ class OurRecipes {
                 numeration: "Primeiro",
                 title: "Preparar os Legumes",
                 description: "Lave todos os legumes. Corte as berinjelas, as abobrinhas, os pimentões e os tomates em rodelas. Fatie a cebola em meias-luas finas e pique o alho.",
-                nomeArquivo: "cortarAlimentos"
+                nomeArquivo: "cortandoFaca"
             ),
             Steps(
                 numeration: "Segundo",
@@ -59,7 +59,7 @@ class OurRecipes {
                 numeration: "Primeiro",
                 title: "Preparar Ingredientes",
                 description: "Corte os tomates em pedaços, pique a cebola, descasque e pique as cenouras, e pique o alho.",
-                nomeArquivo: "cortarAlimentos"
+                nomeArquivo: "cortandoFaca"
             ),
             Steps(
                 numeration: "Segundo",
@@ -98,7 +98,7 @@ class OurRecipes {
                 numeration: "Primeiro",
                 title: "Preparar Ingredientes",
                 description: "Pique o queijo gruyère e o queijo parmesão. Reserve.",
-                nomeArquivo: "cortarAlimentos"
+                nomeArquivo: "cortandoFaca"
             ),
             Steps(
                 numeration: "Segundo",

@@ -43,3 +43,7 @@ struct StepView: View {
             }
     }
 }
+
+#Preview {
+    StepView(router: .constant(.receitaUm), recipe: OurRecipes().arrayOfRecipes[3], currentStepIndex: 1 )
+}
